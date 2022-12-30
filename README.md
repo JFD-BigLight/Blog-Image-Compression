@@ -39,9 +39,4 @@ https://docs.google.com/document/d/1frx46lQmt1MYEIbyJHo2kktp4R-1AXolgIj2vKLCMLw/
 https://photos.app.goo.gl/qHMSG2fNYQHnBGqX7
 ******************HOW IT WORKS**********************
 
-
-******************CONTACT**********************
-Any questions please do not hesitate to get in touch, you can contact me via the below.
-jacob.delaney@biglight.com
-******************CONTACT**********************
 # Blog-Image-Compression
