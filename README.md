@@ -1,6 +1,5 @@
 ******************INTRO**********************
-Blog Image Compression is a small script that speeds up the process of renaming and compressing images for the George SEO Blog. Please Visit my Github page to clone the repo.
-https://github.com/JFD-BigLight
+Blog Image Compression is a small script that speeds up the process of renaming and compressing images for the George SEO Blog.
 ******************INTRO**********************
 
 ******************SET UP**********************
