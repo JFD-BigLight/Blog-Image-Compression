@@ -5,8 +5,9 @@ const tinify = require("tinify");
 tinify.key = "";
 
 //please update your new file name 
+//Name Format: "women knitwear for winter 100123"
 const fileName = "";
-const nameSlug = fileName.replaceAll(' ', '_');
+const nameSlug = fileName.replaceAll(' ', '-');
 const directory = fs.readdirSync("./images");
 
 
@@ -39,10 +40,10 @@ function recursion(){
                     }
                     if(containsNumbers(file)){
                         const numType = file.slice(findindex(file),file.length);
-                        const formatedFileName = `${nameSlug + numType}`;
+                        const formatedFileName = `${nameSlug + "-" + numType}`;
                         moveFiles(`./final/${formatedFileName.toLowerCase()}`);
                     }
-                    if(file.includes('ero')) moveFiles(`./final/${nameSlug + "Hero.jpg"}`);
+                    if(file.includes('ero')) moveFiles(`./final/${nameSlug + "-" + "Hero.jpg"}`);
                 }
                 else{recursion();}
             }
